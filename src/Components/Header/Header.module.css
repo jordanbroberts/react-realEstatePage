@@ -1,0 +1,18 @@
+.header {
+  background-color: #19263a;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .header {
+    padding: 30px 30px;
+  }
+
+  .header img {
+    width: 200px;
+  }
+}

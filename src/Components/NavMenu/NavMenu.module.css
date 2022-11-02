@@ -1,0 +1,16 @@
+.navContainer a {
+  margin-right: 25px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+
+.navContainer a:hover {
+  color: #fc495d;
+}
+
+@media (max-width: 880px) {
+  .navContainer {
+    display: none;
+  }
+}

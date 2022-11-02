@@ -1,0 +1,33 @@
+.section {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 75px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sliderContainer {
+  width: 1170px;
+}
+
+.sliderContainer .swiper-slide:hover {
+  margin-top: -15px !important;
+}
+
+.sliderContainer .swiper-slide {
+  transition: 0.3s all !important;
+}
+
+.h3 {
+  color: #19263a;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 35px;
+}
+
+@media (max-width: 1200px) {
+  .sliderContainer {
+    width: 100%;
+  }
+}

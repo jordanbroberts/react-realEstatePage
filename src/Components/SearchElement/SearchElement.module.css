@@ -1,0 +1,204 @@
+.searchContainer {
+  background-image: url("../../assets/rectangle-bg.png");
+
+  max-width: 1000px;
+  max-height: 155px;
+  padding: 30px;
+}
+
+.searchOuterContainer {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -300px;
+  z-index: 20;
+  position: relative;
+}
+
+.searchInputsDiv {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.searchInputsDiv select {
+  height: auto;
+  background-color: #fff;
+  border-radius: 0;
+  border: none;
+  font-size: 15px;
+  width: 90px;
+  padding: 10px;
+  margin-right: 10px;
+  color: #828282;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("../../assets/dropdown-arrow.svg");
+  background-position: center right 10px;
+  background-repeat: no-repeat;
+}
+
+.searchInputsDiv select:nth-child(2) {
+  width: 330px;
+}
+
+.searchInputsDiv input {
+  padding: 10px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 0;
+  border: none;
+  font-size: 15px;
+  width: 500px;
+}
+
+.searchInputsDiv input::-webkit-input-placeholder {
+  color: #828282;
+}
+
+.searchButtonsDiv {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.buttonTransparent {
+  max-height: 40px;
+  padding: 10px 17px;
+  background-color: transparent;
+  border-radius: 0;
+  color: #fff;
+  border: solid 1px #fff;
+}
+
+.buttonTransparent span {
+  color: #fc495d;
+  margin-right: 5px;
+}
+
+.searchButtonsRightDiv {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.numberOfProperties {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.mainButton {
+  max-height: 40px;
+  text-transform: uppercase;
+  background-color: #fc495d;
+  color: #fff;
+  padding: 10px 17px;
+  border-radius: 0;
+  border: solid 1px #fc495d;
+  display: flex;
+  align-items: center;
+  transition: 0.3s all;
+}
+
+.mainButton:hover {
+  background-color: #e33044;
+  border-color: #e33044;
+}
+
+.mainButton img {
+  margin-right: 5px;
+}
+
+.moreSearchOptions {
+  margin-right: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-left: 32px;
+  background-image: url("../../assets/pink-arrow.svg");
+  background-position: center left 10px;
+  background-repeat: no-repeat;
+  text-align: right;
+}
+
+.searchInputsSelects {
+  display: flex;
+  flex-direction: row;
+}
+
+.moreSearchOptionsDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 1030px) {
+  .searchContainer {
+    width: 725px;
+  }
+}
+
+@media (max-width: 790px) {
+  .searchInputsDiv {
+    flex-direction: column;
+  }
+
+  .searchInput {
+    width: 380px !important;
+  }
+  .searchInputsSelects {
+    margin-bottom: 10px;
+  }
+  .searchInputsSelects select:nth-child(2) {
+    margin-right: 0px;
+  }
+  .searchContainer {
+    width: 400px;
+    height: auto;
+    max-height: 300px;
+  }
+
+  .searchButtonsDiv {
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .searchButtonsDiv button:nth-child(1) {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 470px) {
+  .searchContainer {
+    width: 300px;
+    height: auto;
+    max-height: 300px;
+  }
+
+  .searchInput {
+    width: 280px !important;
+  }
+
+  .searchInputsSelects select:nth-child(1) {
+    width: 125px;
+  }
+
+  .moreSearchOptionsDiv select {
+    margin-right: 0px;
+  }
+
+  .searchButtonsRightDiv {
+    flex-direction: column;
+  }
+
+  .mainButton {
+    margin-top: 10px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .searchOuterContainer {
+    margin-top: -350px;
+  }
+}

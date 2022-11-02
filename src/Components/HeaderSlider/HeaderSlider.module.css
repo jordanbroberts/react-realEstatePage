@@ -1,0 +1,17 @@
+.slider img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.slider {
+  max-height: 900px;
+  height: 900px;
+}
+
+@media (max-width: 1030px) {
+  .slider {
+    height: 700px;
+  }
+}

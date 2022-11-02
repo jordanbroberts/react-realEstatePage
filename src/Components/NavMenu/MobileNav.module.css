@@ -1,0 +1,36 @@
+.mobileNavContainer {
+  display: none;
+}
+
+.mobileMenu div {
+  border-radius: 0px;
+  margin-top: 10px;
+  margin-left: -35px;
+}
+
+.mobileMenu div li {
+  color: #19263a;
+}
+
+.mainButton {
+  background-color: #fc495d;
+  color: #fff;
+  padding: 0px;
+  border-radius: 0;
+  border: solid 1px #fc495d;
+  display: flex;
+}
+
+.mainButton img {
+  width: 50px;
+}
+
+@media (max-width: 880px) {
+  .mobileNavContainer {
+    display: flex;
+  }
+
+  .mobileMenu div {
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,46 @@
+.topSection {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-top: 240px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.callToActionText {
+  margin-top: 0;
+  text-align: center;
+  max-width: 645px;
+  margin-bottom: 40px;
+}
+
+.mainButton {
+  max-height: 40px;
+  background-color: #fc495d;
+  color: #fff;
+  padding: 10px 17px;
+  border-radius: 0;
+  border: solid 1px #fc495d;
+  display: flex;
+  transition: 0.3s all;
+}
+
+.mainButton:hover {
+  background-color: #e33044;
+  border-color: #e33044;
+}
+
+.h3 {
+  color: #19263a;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 35px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+@media (max-width: 790px) {
+  .topSection {
+    padding-top: 125px;
+  }
+}

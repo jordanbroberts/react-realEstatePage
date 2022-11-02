@@ -1,0 +1,103 @@
+.footerSection {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #19263a;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerSection a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+
+.footerSection a:hover {
+  color: #fc495d;
+}
+
+.footerInnerDiv {
+  width: 100%;
+  max-width: 960px;
+}
+
+.footerImageDiv {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 48px;
+  align-items: center;
+}
+
+.footerImageDiv img {
+  width: 86px !important;
+  margin-right: 30px;
+}
+
+.footerImageDiv img:nth-child(2) {
+  width: 125px !important;
+  height: 46px;
+}
+
+.footerBottomDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerLinksDiv1 p {
+  font-size: 12px;
+  color: #fff;
+}
+
+.footerLinksDiv2 p {
+  padding-top: 26px;
+  font-size: 12px;
+  color: #fff;
+  margin-bottom: 48px;
+}
+
+.footerLinksDiv1 {
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 26px;
+}
+
+.footerCompanyNameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footerCompanyNameDiv p {
+  margin-left: 20px;
+  max-width: 174px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.footerSocialsDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footerSocialsDiv img {
+  margin-right: 25px;
+}
+
+.footerSocialsDiv a:nth-child(3) img {
+  margin-right: 0px !important;
+}
+
+@media (max-width: 470px) {
+  .footerBottomDiv {
+    flex-direction: column-reverse;
+  }
+
+  .footerSocialsDiv {
+    margin-bottom: 50px;
+  }
+}

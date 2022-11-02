@@ -1,0 +1,64 @@
+body {
+  color: #828282;
+  margin: 0;
+}
+
+button,
+select,
+a {
+  cursor: pointer;
+}
+
+body,
+select,
+input,
+button {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  margin: 0;
+  line-height: 1.6em;
+}
+
+h3,
+h5 {
+  margin: 0;
+}
+
+select option {
+  border-radius: 0px;
+  background-color: #fff;
+  color: #828282;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fc495d !important;
+}
+
+.swiper-button-next {
+  right: 0px !important;
+}
+.swiper-button-prev {
+  left: 0px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 0 !important;
+  background: #f2f2f2 !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background: #19263a !important;
+}
+
+.h5 {
+  font-size: 24px;
+  color: #19263a;
+  margin: 0;
+}
